@@ -12,10 +12,10 @@ public class Evento implements Comparable<Evento> {
 		this.n = n;
 	}
 	
-	public int getT() {
+	public int getTime() {
 		return t;
 	}
-	public void setT(int t) {
+	public void setTime(int t) {
 		this.t = t;
 	}
 	public Country getCountry() {
@@ -24,10 +24,10 @@ public class Evento implements Comparable<Evento> {
 	public void setCountry(Country country) {
 		this.country = country;
 	}
-	public int getN() {
+	public int getNumPersone() {
 		return n;
 	}
-	public void setN(int n) {
+	public void setNum(int n) {
 		this.n = n;
 	}
 
